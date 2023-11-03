@@ -5,15 +5,28 @@
     text-align: center;
 }
 
+#pantrytitle {
+    height: auto;
+    width: 66%;
+    background-color: beige;
+}
+
+#pantry-image {
+    height:auto;
+    Width: 33%;
+}
+
+#freezertitle {
+    height: auto;
+    width: 66%;
+    background-color: beige;
+}
+
+#freezer-image {
+    height:auto;
+    Width: 33%
+}
+
 #pantry {
-    height: auto;
-    width: 66%;
-    background-color: beige;
+    background-color: silver;
 }
-
-#freezer {
-    height: auto;
-    width: 66%;
-    background-color: beige;
-}
-
