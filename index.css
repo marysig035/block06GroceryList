@@ -14,6 +14,7 @@
 #pantry-image {
     height:auto;
     Width: 33%;
+    display: inline-flex;
 }
 
 #freezertitle {
@@ -27,6 +28,7 @@
     Width: 33%
 }
 
-#pantry {
+#table {
     background-color: silver;
+    
 }
