@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>My Very Organized Grocery List</h1>
+        <h1 class="title">My Very Organized Grocery List</h1>
     </header>
 
     <section>
-        <h3>Pantry Items</h3>
+        <h3 id="pantry">Pantry Items</h3>
         <h5>Canned</h5>
-        <ul>
+        <ul class="one">
             <li>Corn</li>
             <li>Tuna</li>
             <li>Green Beans</li>
@@ -22,15 +23,39 @@
     </section>
 
     <section>
-        <h3>Freezer Items</h3>
+        <h3 id="freezer">Freezer Items</h3>
         <h5>Veggies</h5>
-        <ul>
+        <ol class="one">
             <li>Broccoli</li>
             <li>Carrots</li>
             <li>Cauliflower</li>
             <li>Bell Peppers</li>
-        </ul>
+        </ol>
     </section>
+
+    <span>
+        <h5>Dry Goods</h5>
+        <ul class="two">
+            <li>Rice</li>
+            <li>Lentils</li>
+            <li>Oats</li>
+            <li>Pancake Mix</li>
+        </ul>
+    
+        <h5>Snacks</h5>
+        <ol class="two">
+            <li>Chicken nuggets</li>
+            <li>Hot pockets</li>
+            <li>Fries</li>
+            <li>Tater Tots</li>
+        </ol>
+    </span>
+
+    <table>
+        <tr>
+            <th></th>
+        </tr>
+    </table>
 
 </body>
 </html>
