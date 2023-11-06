@@ -25,10 +25,11 @@
 
 #freezer-image {
     height:auto;
-    Width: 33%
+    Width: 33%; 
+    display: inline-flex;
 }
 
 #table {
     background-color: silver;
-    
+    display: inline-flex;
 }
