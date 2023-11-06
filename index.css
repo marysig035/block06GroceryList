@@ -12,15 +12,36 @@
 }
 
 #image {
-    height:19vh;
-    Width: 32vw;
     display: inline-flex;
-    padding-left: 0cm;
-    border: 0cm;
+    vertical-align: top;
+    height: 140px;
+    width: 150px;
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 2px;
+    padding: 3px;
+    margin: 7px;
 }
 
 #table {
     background-color: silver;
     display: inline-flex;
     vertical-align: top;
+}
+
+#edit {
+    margin: 0 auto;
+    width: 600px;
+    background-color: aliceblue;
+    display: inline-block;
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 2px;
+    padding: 3px;
+    margin: 7px;
+    width: 300px;
+}
+
+#line {
+    display: inline-flex;
 }
